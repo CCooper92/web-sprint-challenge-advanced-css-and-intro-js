@@ -146,25 +146,29 @@ button:hover{
     .title-container div{
         width:100%;
         background-position: center;
-        
-    }
+        background-size:cover;
+        }
     .title-container h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .artists-container {
         flex-direction: column;
         align-items: center;
         width:100%;
-        border: 1px solid red;
+        margin-bottom: 20%;
         }
         .artist{
             width: 70%;
             font-size: 1rem;
             
         }
+        
 
         .artist img{
-            width:80%;
+            width:70%;
+            height: auto;
         }
-        
+         .artist a{
+             font-size: 2rem;
+         }
        
